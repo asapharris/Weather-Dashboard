@@ -5,6 +5,7 @@ body {
     width: 100vw;
     height: 100%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 #current {
@@ -12,21 +13,43 @@ body {
     align-items: center;
     justify-content: end;
     padding-left: 3vw; 
-    width: auto;
 }
 
 #currentCard {
     height: 30vh;
-    width: 145vh;
+    width: 130vh;
+    align-self: center;
+    position: relative;
 }
 
 .col {
     display: inline;
-    width: 13vw;
+    width: 12vw;
     margin: 3px;
     padding: 3px;
 }
 
 .current {
     margin-top: 30px;
+}
+
+.list-group {
+    align-items: center;
+    width: 100%;
+}
+
+.list-group-item {
+    width: 100%;
+}
+
+.main-container{
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#current-card {
+    width: 100%;
+    height: 10rem;
+    background-color: blue;
+    color: white;
 }
